@@ -29,4 +29,7 @@ import mailRouter from "./routes/mail.route.js";
  
 //routes declaration
  app.use("/mail", mailRouter);
+app.get('/health', (req, res) => {
+  res.status(200).send('OK');
+});
 export { app };
