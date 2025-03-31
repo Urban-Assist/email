@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/badge/license-ISC-red.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
-<img src="https://via.placeholder.com/200?text=Email+Service+Logo" alt="Email Service Logo" width="200"/>
+<img src="https://images.pexels.com/photos/5605061/pexels-photo-5605061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Email Service Logo" width="200"/>
 
 *Reliable, scalable email operations for Urban Assist platform*
 
