@@ -108,7 +108,7 @@ ENV_MODE=development
 4. **Security Note**:
    - Keep this password secure
    - Use environment variables in production
-
+5. **Remove the space from the token given by the google**
 </details>
 
 ---
