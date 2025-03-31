@@ -186,7 +186,7 @@ Sensitive data is stored in Kubernetes secrets:
 
 ### Deployment Specifications
 - **Replicas**: 1 (configurable)
-- **Image**: parthpatil01/email:latest
+- **Image**: handyshare/email:latest
 - **Pull Policy**: Always
 - **Port**: 8084
 
