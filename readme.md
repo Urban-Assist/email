@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/badge/license-ISC-red.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
-<img src="https://raw.githubusercontent.com/amplication/amplication/master/apps/amplication/src/static/img/email-service.svg" alt="Email Service Logo" width="200"/>
+<img src="https://via.placeholder.com/200?text=Email+Service+Logo" alt="Email Service Logo" width="200"/>
 
 *Reliable, scalable email operations for Urban Assist platform*
 
@@ -20,10 +20,6 @@
 [Contributing](#-contributing)
 
 </div>
-
-<p align="center">
-  <img src="https://i.imgur.com/9Jz1SJs.gif" alt="Email Service Animation" width="600">
-</p>
 
 ---
 
@@ -78,10 +74,6 @@ Before you begin, ensure you have met the following requirements:
    npm install
    ```
 
-<p align="center">
-  <img src="https://i.imgur.com/VlUlNBP.gif" alt="Installation Animation" width="500">
-</p>
-
 ---
 
 ## ⚙️ Configuration
@@ -131,10 +123,6 @@ Choose the mode that best fits your needs:
 | `npm run prod` | Production mode for deployment |
 | `npm test` | Run the test suite |
 
-<p align="center">
-  <img src="https://i.imgur.com/Y2Yr6Mk.gif" alt="Server Running Animation" width="500">
-</p>
-
 ---
 
 ## 🐳 Docker
@@ -175,10 +163,6 @@ kubectl get deployments
 | **Rolling updates** | Updates containers without downtime | Ensures continuous service availability |
 | **Load balancing** | Distributes traffic across pods | Optimizes resource usage |
 | **Resource limits** | Controls CPU and memory allocation | Prevents resource starvation |
-
-<p align="center">
-  <img src="https://i.imgur.com/SQTnplb.gif" alt="Kubernetes Deployment Animation" width="600">
-</p>
 
 ---
 
@@ -227,10 +211,6 @@ The service includes comprehensive logging and monitoring capabilities:
 
 </div>
 
-<p align="center">
-  <img src="https://i.imgur.com/GPKhPvR.gif" alt="Tech Stack Animation" width="600">
-</p>
-
 ---
 
 ## 🚢 Deployment Impact Features
@@ -268,9 +248,5 @@ This project is licensed under the ISC License. See the [LICENSE](LICENSE) file 
 <div align="center">
 
 **Urban Assist Platform** • Created with ❤️ by the Urban Assist Team
-
-<p align="center">
-  <img src="https://i.imgur.com/JrXn4H5.gif" alt="Thank You Animation" width="300">
-</p>
 
 </div>
