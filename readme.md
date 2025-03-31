@@ -166,6 +166,63 @@ kubectl get deployments
 
 ---
 
+## ☸️ Kubernetes Configuration Details
+
+### Service Configuration
+The service is exposed on port 8084:
+```yaml
+spec:
+  ports:
+    - protocol: TCP
+      port: 8084
+      targetPort: 8084
+```
+
+### Secret Management
+Sensitive data is stored in Kubernetes secrets:
+- Email credentials
+- CORS configuration
+- Port settings
+
+### Deployment Specifications
+- **Replicas**: 1 (configurable)
+- **Image**: parthpatil01/email:latest
+- **Pull Policy**: Always
+- **Port**: 8084
+
+### Resource Configurations
+```yaml
+resources:
+  limits:
+    cpu: "500m"
+    memory: "512Mi"
+  requests:
+    cpu: "200m"
+    memory: "256Mi"
+```
+
+### Health Checks
+```yaml
+livenessProbe:
+  httpGet:
+    path: /health
+    port: 8084
+  initialDelaySeconds: 15
+  periodSeconds: 10
+```
+
+### Network Policies
+- Internal cluster communication allowed
+- External access through ingress only
+- Port 8084 exposed
+
+### Volume Mounts
+- ConfigMap mounted for non-sensitive configs
+- Secrets mounted for sensitive data
+- Ephemeral storage for temporary files
+
+---
+
 ## 📡 API Endpoints
 
 | Endpoint | Method | Description | Request Body | Response |
